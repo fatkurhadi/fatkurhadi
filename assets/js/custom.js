@@ -83,7 +83,7 @@
 	});
 
 	$('.owl-features').owlCarousel({
-		items:3,
+		items:5,
 		loop:true,
 		dots: false,
 		nav: true,
@@ -100,7 +100,10 @@
 				  items:3
 			  },
 			  1800:{
-				items:3
+				  items:4
+			  },
+			  2400:{
+				items:5
 			}
 		}
 	})
